@@ -1,0 +1,12 @@
+diff -rup lohit-kannada-2.4.5/66-lohit-kannada.conf lohit-kannada-2.4.5_mod/66-lohit-kannada.conf
+--- lohit-kannada-2.4.5/66-lohit-kannada.conf	2010-03-23 13:11:18.000000000 +0530
++++ lohit-kannada-2.4.5_mod/66-lohit-kannada.conf	2010-04-16 15:19:02.000000000 +0530
+@@ -8,7 +8,7 @@
+   <test name="family">
+     <string>sans-serif</string>
+   </test>
+-  <edit name="family" mode="prepend" binding="same">
++  <edit name="family" mode="prepend">
+     <string>Lohit Kannada</string>
+   </edit>
+ </match>
